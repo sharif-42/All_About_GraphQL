@@ -37,6 +37,9 @@ DEFAULT_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
+    'rest_framework',
+    'graphene_django',
+    'django_extensions',
 
 ]
 LOCAL_APPS = [

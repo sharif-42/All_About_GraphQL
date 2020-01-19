@@ -6,5 +6,5 @@
 #For Git
 git status
 git add .
-git commit -m "project file updated and setup done"
+git commit -m "model created for crud operation and other dependency update done"
 git push origin master

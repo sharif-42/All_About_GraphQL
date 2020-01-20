@@ -7,7 +7,7 @@ class Author(models.Model):
     last_name = models.CharField(max_length=100, blank=True, null=True)
     email = models.EmailField(max_length=100, blank=True, null=True)
     phone_number = models.CharField(max_length=100)
-    total_publication = models.PositiveIntegerField(blank=True, null=True)
+    total_publication = models.PositiveIntegerField(default=0)
 
     class Meta:
         verbose_name = 'Author'
